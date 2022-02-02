@@ -1,0 +1,39 @@
+@import "desafios/day1/day1.css";
+* { 
+  margin: 0;
+  padding: 0;
+
+  font-family: Ubuntu; 
+  color: #ffdcbd; 
+
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 40px;
+  min-height: 100vh;
+  background: #313552;
+}
+
+header {
+  color: #FFBC80;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin-bottom: 7px;
+}
+
+main, header { width: 100%; max-width: 1140px; }
+
+main hr {
+  opacity: 0.2;
+  margin: 20px 0;
+}
