@@ -1,12 +1,12 @@
 ## 30diasDeCSS 
 
-  Já vi esse desafio antes mas sempre tive coragem de tentar e não conseguir finalizar e me sentir mal depois kkkk Agora decidi tentar pois estou a um tempo sem estudar e isso vai me ajudar psicologicamente a voltar a estudar e ainda vou aprender umas coisinhas novas de CSS. 
+Já vi esse desafio antes mas sempre tive medo de tentar, não conseguir finalizar e me sentir mal depois kkkk Agora decidi tentar pois estou a um tempo sem estudar e isso vai me ajudar psicologicamente a voltar e ainda vou aprender umas coisinhas novas de CSS. 
 
  ### :: Objetivo ::
 
-De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu finalizar tranquilo, acabo no dia do meu aniversário, então me darei um presente ashuahshauhs
+De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu continuar tranquilo, consigo finalizar no dia do meu aniversário, então me darei um presente ashuahshauhs.
 
-***A ideia desse desafio é da @..., vale a pena ver o repositório dela que tá mais organizado 😉***
+***A ideia desse desafio é da @MilenaCarecho, vale a pena ver o repositório dela que tá mais organizado 😉***
 [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
 
 #### Youtube Referencias dos desafios
