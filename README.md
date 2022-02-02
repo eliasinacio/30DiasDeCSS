@@ -2,17 +2,11 @@
 
 Já vi esse desafio antes mas sempre tive medo de tentar, não conseguir finalizar e me sentir mal depois kkkk Agora decidi tentar pois estou a um tempo sem estudar e isso vai me ajudar psicologicamente a voltar e ainda vou aprender umas coisinhas novas de CSS. 
 
- ### :: Objetivo ::
+### :: Objetivo ::
 
 De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu continuar tranquilo, consigo finalizar no dia do meu aniversário, então me darei um presente ashuahshauhs.
 
-***A ideia desse desafio é da @MilenaCarecho, vale a pena ver o repositório dela que tá mais organizado 😉***
-[Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
-
-#### Youtube Referencias dos desafios
-[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - 
-[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A) - 
-[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vale a pena ver conferir por lá que tá mais organizado***
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 * [Dia 02 - Loader animado](#id02)
