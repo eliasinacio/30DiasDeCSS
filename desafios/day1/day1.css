@@ -27,6 +27,11 @@
   transition: 0.5s;
 }
 
+.day1_icon img {
+  width: 64px;
+  height: 64px;
+}
+
 .imgContainer {
   z-index: 2 !important;
 }
