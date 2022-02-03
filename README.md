@@ -6,7 +6,7 @@ Já vi esse desafio antes mas sempre tive medo de tentar, não conseguir finaliz
 
 De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu continuar tranquilo, consigo finalizar no dia do meu aniversário, então me darei um presente ashuahshauhs.
 
-***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vale a pena ver conferir por lá que tá mais organizado***
+***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vê por lá também que tá mais organizado***
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 * [Dia 02 - Loader animado](#id02)
@@ -38,3 +38,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30)
+
+
+## Dia 1 - Ícone de mídia social em camadas <a name="id01"></a>
+<div align="center" display="inline">
+</div>
