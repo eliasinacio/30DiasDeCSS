@@ -63,7 +63,7 @@ img {
 
 
 /* @@ MEDIA QUERIES @@ */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .day1_container {
     height: 160px;
     gap: 24px;

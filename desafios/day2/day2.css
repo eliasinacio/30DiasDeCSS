@@ -139,7 +139,7 @@
     }
 }
 /* @@ MEDIA QUERIES @@ */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .day2_container {
     gap: 20px;
   }
