@@ -40,6 +40,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 30 - Fogos de artificio](#id30)
 
 
-## Dia 1 - Ícone de mídia social em camadas <a name="id01"></a>
+### Dia 1 - Ícone de mídia social em camadas <a name="id01"></a>
 <div align="center" display="inline">
+  <img width="520px" src="archives/day1/day1.gif" />
 </div>
