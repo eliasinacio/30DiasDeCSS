@@ -138,3 +138,10 @@
         margin-left: 70px;
     }
 }
+
+
+@media (max-width: 600px) {
+  .day2_container {
+    gap: 20px;
+  }
+}
