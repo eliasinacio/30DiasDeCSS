@@ -24,7 +24,7 @@
   
   position: relative;
   z-index: 0;
-  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .imgContainer {
@@ -49,5 +49,31 @@
 
 .day1_icon:hover > div{
   margin-top: -61px;
-  -webkit-transition: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
+/* @@ MEDIA QUERIES @@ */
+@media (max-width: 600px) {
+  .day1_container {
+    height: 160px;
+    gap: 24px;
+  }
+
+  img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .day1_icon div {
+    width: 42px;
+    height: 42px;
+
+    margin-top: -41px;
+  }
+
+  .day1_icon:hover > div{
+    margin-top: -36px;
+    transition-duration: 0.5s;
+  }
 }

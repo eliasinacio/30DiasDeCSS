@@ -31,7 +31,7 @@ header h1 {
   margin-bottom: 7px;
 }
 
-main, header { width: 100%; max-width: 1140px; }
+main, header { width: 100%; max-width: 940px; }
 
 main hr {
   opacity: 0.2;
