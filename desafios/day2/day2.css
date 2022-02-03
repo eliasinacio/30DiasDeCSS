@@ -143,4 +143,18 @@
   .day2_container {
     gap: 20px;
   }
+
+  .inOut {
+    width: 60px;
+  }
+
+
+  @keyframes backAndForth {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 50px;
+    }
+  }
 }
