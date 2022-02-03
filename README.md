@@ -8,8 +8,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vê por lá também que tá mais organizado***
 
-* [Dia 01 - Ícone de mídia social em camadas](#id01)
-* [Dia 02 - Loader animado](#id02)
+* [Dia 01 - Ícone em camadas](#id01)
+* [Dia 02 - Loadings animados](#id02)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
@@ -40,7 +40,12 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 30 - Fogos de artificio](#id30)
 
 
-### Dia 1 - Ícone de mídia social em camadas <a name="id01"></a>
+### Dia 1 - Ícone em camadas <a name="id01"></a>
 <div align="center" display="inline">
-  <img width="520px" src="archives/day1/day1.gif" />
+  <img width="500px" src="archives/day1/day1.gif" />
+</div>
+
+### Dia 2 - Loadings animados <a name="id02"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day2/day2.gif" />
 </div>

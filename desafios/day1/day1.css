@@ -1,10 +1,14 @@
+#day1 {
+  padding: 0 0 40px;
+}
+
 .day1_container {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 38px;
 
-  padding: 80px 0 40px;
+  padding: 80px 0 0;
   height: 200px;
   width: 100%;
 }

@@ -1,4 +1,6 @@
 @import "desafios/day1/day1.css";
+@import "desafios/day2/day2.css";
+
 * { 
   margin: 0;
   padding: 0;
@@ -36,4 +38,8 @@ main, header { width: 100%; max-width: 940px; }
 main hr {
   opacity: 0.2;
   margin: 20px 0;
+}
+
+section {
+  min-height: 200px;
 }

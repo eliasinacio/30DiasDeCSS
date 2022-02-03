@@ -1,0 +1,139 @@
+.day2_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+  padding: 40px 0 20px;
+}
+
+.barsContainer {
+  width: 60px;
+  height: 60px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  gap: 6px;
+}
+
+.bar {
+  width: 8px;
+  height: 50px;
+  
+  border-radius: 10px;
+  background-color: #e8ece9;
+}
+
+.bar:nth-child(1) {
+  animation: 1s upAndDown linear 0s alternate infinite;
+}
+
+.bar:nth-child(2) {
+  animation: 1.2s upAndDown linear 0s alternate infinite;
+}
+
+.bar:nth-child(3) {
+  animation: 0.8s upAndDown linear 0s alternate infinite;
+}
+
+@keyframes upAndDown {
+    from {
+        height: 50px;
+    }
+    to {
+        height: 20px;
+    }
+}
+
+
+.fidgetSpinner {
+  width: 100px;
+  height: 100px;
+  
+  border-radius: 50%;
+  
+  position: relative;
+  animation: 1s spin linear infinite;
+}
+
+.center, .ring1, .ring2, .ring3 {
+  width: 24px;
+  height: 24px;
+ 
+  background-color: #e8ece9;
+  border-radius: 50%;
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring1 {
+  top: 18px;
+  left: 38px;
+}
+
+.ring2 {
+  top: 48px;
+  left: 20px;
+}
+
+.ring3 {
+  top: 49px;
+  left: 56px;
+}
+
+.spinnerCircle {
+  width: 9px;
+  height: 9px;
+  
+  background-color: #e8ece9;
+  border-radius: 50%;
+  border: 4px solid #313552;
+
+  box-sizing: content-box !important;
+}
+
+@keyframes spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+}
+
+
+.inOut {
+  width: 80px;
+  height: 10px;
+  
+  background-color: #f8f8f838;
+  border-radius: 5px;
+
+  margin-top: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  
+  background-color: #e8ece9;
+  
+  animation: 2s backAndForth linear 0s alternate infinite;
+}
+
+@keyframes backAndForth {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 70px;
+    }
+}
