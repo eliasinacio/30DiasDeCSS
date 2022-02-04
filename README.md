@@ -10,7 +10,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 * [Dia 01 - Ícone em camadas](#id01)
 * [Dia 02 - Loadings animados](#id02)
-* [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
+* [Dia 03 - Texto que muda de cor](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
@@ -48,4 +48,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 2 - Loadings animados <a name="id02"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day2/day2.gif" />
+</div>
+
+### Dia 3 - Texto que muda de cor <a name="id02"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day3/day3.gi" />
 </div>

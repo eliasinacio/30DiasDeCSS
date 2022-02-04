@@ -7,7 +7,7 @@
   padding: 40px 0 20px;
 }
 
-.barsContainer {
+.day2_barsContainer {
   width: 60px;
   height: 60px;
   
@@ -18,7 +18,7 @@
   gap: 6px;
 }
 
-.bar {
+.day2_bar {
   width: 8px;
   height: 50px;
   
@@ -26,16 +26,16 @@
   background-color: #e8ece9;
 }
 
-.bar:nth-child(1) {
+.day2_bar:nth-child(1) {
   animation: 1s upAndDown linear 0s alternate infinite;
 }
 
-.bar:nth-child(2) {
-  animation: 1.2s upAndDown linear 0s alternate infinite;
+.day2_bar:nth-child(2) {
+  animation: 1.day2_2s upAndDown linear 0s alternate infinite;
 }
 
-.bar:nth-child(3) {
-  animation: 0.8s upAndDown linear 0s alternate infinite;
+.day2_bar:nth-child(3) {
+  animation: 0.day2_8s upAndDown linear 0s alternate infinite;
 }
 
 @keyframes upAndDown {
@@ -48,7 +48,7 @@
 }
 
 
-.fidgetSpinner {
+.day2_fidgetSpinner {
   width: 100px;
   height: 100px;
   min-width: 100px;
@@ -59,7 +59,7 @@
   animation: 1s spin linear infinite;
 }
 
-.center, .ring1, .ring2, .ring3 {
+.day2_center, .day2_ring1, .day2_ring2, .day2_ring3 {
   width: 24px;
   height: 24px;
  
@@ -74,22 +74,22 @@
   align-items: center;
 }
 
-.ring1 {
+.day2_ring1 {
   top: 18px;
   left: 38px;
 }
 
-.ring2 {
+.day2_ring2 {
   top: 48px;
   left: 20px;
 }
 
-.ring3 {
+.day2_ring3 {
   top: 49px;
   left: 56px;
 }
 
-.spinnerCircle {
+.day2_spinnerCircle {
   width: 9px;
   height: 9px;
   
@@ -110,7 +110,7 @@
 }
 
 
-.inOut {
+.day2_inOut {
   width: 80px;
   height: 10px;
   
@@ -120,7 +120,7 @@
   margin-top: 20px;
 }
 
-.dot {
+.day2_dot {
   width: 10px;
   height: 10px;
   border-radius: 5px;
@@ -144,7 +144,7 @@
     gap: 20px;
   }
 
-  .inOut {
+  .day2_inOut {
     width: 60px;
   }
 
