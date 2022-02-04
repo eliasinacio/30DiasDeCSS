@@ -52,5 +52,5 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ### Dia 3 - Texto que muda de cor <a name="id02"></a>
 <div align="center" display="inline">
-  <img width="500px" src="archives/day3/day3.gi" />
+  <img width="500px" src="archives/day3/day3.gif" />
 </div>
