@@ -50,7 +50,12 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
   <img width="500px" src="archives/day2/day2.gif" />
 </div>
 
-### Dia 3 - Texto que muda de cor <a name="id02"></a>
+### Dia 3 - Texto que muda de cor <a name="id03"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day3/day3.gif" />
+</div>
+ 
+### Dia 4 - Botão com efeito <a name="id04"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day4/day4.gif" />
 </div>
