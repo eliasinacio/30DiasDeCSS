@@ -1,0 +1,81 @@
+.day4_buttons {
+  height: 200px;
+
+  padding: 80px 40px 40px;
+  background-color: var(--color-main);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.day4_button {
+  width: 200px;
+  height: 50px;
+
+  font-size: 14px;
+
+  background-color: var(--color-main);
+
+  border: 2px solid var(--color-white);
+  outline: none;
+
+  position: relative;
+}
+
+.day4_button1:hover {
+  background: linear-gradient(90deg, #6F69AC, #95DAC1, #FFEBA1, #FD6F96);
+  font-weight: 900;
+
+  animation: 0.4s rainbow linear infinite;
+}
+
+.day4_button2:hover {
+  transform: scale(0.9);
+  animation: 1s dancing alternate infinite;
+}
+
+
+
+/* Animations */
+@keyframes rainbow {
+  0% {
+    background: linear-gradient(90deg, #6F69AC, #95DAC1, #FFEBA1, #FD6F96);
+  }
+  33% {
+    background: linear-gradient(90deg, #95DAC1, #FFEBA1, #FD6F96, #6F69AC);
+  }
+  66% {
+    background: linear-gradient(90deg, #FFEBA1, #FD6F96, #6F69AC, #95DAC1);
+  }
+  99% {
+    background: linear-gradient(90deg, #FD6F96, #6F69AC, #95DAC1, #FFEBA1);
+  }
+}
+
+@keyframes dancing {
+  0% {
+    transform: rotate(0deg) scale(0.9);
+  }
+  30% {
+    transform: rotate(10deg) scale(0.9);
+  }
+  60% {
+    transform: rotate(-10deg) scale(0.9);
+  }
+  90% {
+    transform: rotate(0deg) scale(0.9);
+  }
+}
+
+@media (max-width: 800px) {
+  .day4_buttons {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .day4_button{
+    padding: 10px;
+  }
+}
