@@ -1,0 +1,206 @@
+.day6_container {
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+
+  margin-top: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.moon {
+  width: 120px;
+  height: 120px;
+  
+  background-color: #fff;
+  
+  border-radius: 50%;
+  box-shadow: 0 0 30px  #ffffff; 
+  
+  position: relative;
+
+  z-index: 1;
+}
+
+.cruiser {
+  width: 90px;
+  height: 90px;
+  
+  border-radius: 50%;
+  
+  background-color: #000;
+  margin-top: 15px;
+  margin-left: -80px;
+  transform: scale(0.6);
+  
+  animation: 6s cruiser cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+@keyframes cruiser {
+  0% {
+    margin-left: -70px;
+    transform: scale(0.3);
+  }
+  50% {
+    margin-left: 15px;
+    transform: scale(0.6);
+  }
+  100% {
+    margin-left: 90px;
+    transform: scale(0.3);
+  }
+}
+
+.crater {
+  width: 20px;
+  height: 20px;
+  
+  border-radius: 50%;
+
+  background-color: #56565620;
+  
+  position: absolute;
+}
+
+.crater1 {
+  top: 26px;
+  left: 40px;
+}
+
+.crater2 {
+  top: 10px;
+  left: 60px;
+  
+  width: 40px;
+  height: 36px;
+  
+  transform: rotate(38deg);
+  
+  border-radius: 50%;
+}
+
+.crater3 {
+  top: 46px;
+  left: 60px;
+  
+  width: 15px;
+  height: 15px;
+  
+  border-radius: 50%;
+}
+
+.star {
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  box-shadow: 0 0 15px #fff;
+  
+  position: absolute;
+}
+
+.star1 {
+  top: 14%;
+  left: 55%;
+  
+  animation: 2s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star0 {
+  top: 60%;
+  left: 60%;
+  
+  animation: 1s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star2 {
+  width: 2px;
+  height: 2px;
+  
+  top: 10%;
+  left: 40%;
+  
+  animation: 3s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star3 {
+  width: 2px; 
+  height: 2px;
+  
+  left: 62%;
+  top: 72%;
+  
+  animation: 2.5s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star4 {
+  width: 2px;
+  height: 2px;
+  
+  top: 36%;
+  left: 59%;
+  
+  animation: 1.5s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star5 {
+  width: 3px;
+  height: 3px;
+  
+  top: 80%;
+  left: 40%;
+  
+  animation: 2s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star6 {
+  width: 2px;
+  height: 2px;
+  
+  top: 10%;
+  left: 60%;
+  
+  animation: 3.5s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star7 {
+  width: 3px;
+  height: 3px;
+  
+  top: 36%;
+  left: 36%;
+  
+  animation: 3s light  cubic-bezier(.25,.5,.75,.5) infinite;
+}
+
+.star8 {
+  width: 3px;
+  height: 3px;
+  
+  top: 12%;
+  left: 41%;
+  
+  animation: 2s light alternate infinite;
+}
+
+.star9 {
+  width: 2px;
+  height: 2px;
+  
+  top: 53%;
+  left: 39%;
+  
+  animation: 4s light alternate infinite;
+}
+
+@keyframes light {
+  0% {
+    box-shadow: 0 0 18px #fff; 
+  }
+  100% {
+    box-shadow: 0 0 20px #fff; 
+  }
+}
