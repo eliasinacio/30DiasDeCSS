@@ -8,12 +8,12 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vê por lá também que tá mais organizado***
 
-* [Dia 01 - Ícone em camadas](#id01)
+* [Dia 01 - Ícones em camadas](#id01)
 * [Dia 02 - Loadings animados](#id02)
 * [Dia 03 - Texto que muda de cor](#id03)
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito de pulsar](#id05)
-* [Dia 06 - Efeito lightning text](#id06)
+* [Dia 06 - Efeito de Luz](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
