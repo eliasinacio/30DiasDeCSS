@@ -1,0 +1,71 @@
+.day7_container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  display: flex;
+  gap: 20px;
+  
+  position: relative;
+
+  margin: 100px 0 40px;
+}
+
+.jumper1, .jumper2, .jumper3 {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.jumper1 {
+  margin-left: 10px;
+  animation: 1s jump alternate infinite;
+}
+
+.jumper2 { 
+  animation: 1.1s jump alternate infinite;
+}
+
+.jumper3 {
+  animation: 1.2s jump alternate infinite;
+}
+
+.rope {
+  width: 290px; 
+  height: 80px;  
+  border: solid 2px #000;
+  border-color: #fff transparent transparent transparent;
+  border-radius: 50%/50px 50px 0 0;
+  
+  border-radius: none;
+
+  position: absolute;
+  
+  top: -50px;
+  left: -85px;
+  
+  animation: 1.2s rotate linear infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  
+  100%{
+    transform: rotate3d(1 ,0 ,0 , 360deg);
+  }
+}
