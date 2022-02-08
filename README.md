@@ -14,7 +14,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito de pulsar](#id05)
 * [Dia 06 - Efeito de Luz](#id06)
-* [Dia 07 - Preloader animado](#id07)  
+* [Dia 07 - Loading animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
 * [Dia 10 - Animação texto alternando](#id10)
