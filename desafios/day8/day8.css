@@ -1,0 +1,68 @@
+.day8_container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  height: 180px;
+}
+
+.day8_heart {
+  animation: 1s heart_pulsing linear infinite;
+}
+
+.day8_heart div {
+  width: 60px;
+  height: 60px;
+
+  background-color: #ff4242;
+
+  transform: rotate(45deg);
+
+  position: relative;
+}
+
+.day8_heart div {
+  width: 60px;
+  height: 60px;
+
+  background-color: #ff4242;
+
+  transform: rotate(45deg);
+}
+
+.day8_heart div::before, .day8_heart div::after {
+  content: '';
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  background-color: #ff4242;
+
+  position: absolute;
+
+  top: 0;
+  left: -50%;
+}
+
+.day8_heart div::after {
+  top: -50%;
+  left: 0;
+}
+
+@keyframes heart_pulsing {
+  0% {
+    transform: scale(1);
+  }
+  35%{
+    transform: scale(1.05);
+  }
+  55%{
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1.15);
+  }
+  100%{     
+    transform: scale(1);
+  }
+}

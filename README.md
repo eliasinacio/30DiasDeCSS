@@ -74,3 +74,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 <div align="center" display="inline">
   <img width="500px" src="archives/day7/day7.gif" />
 </div>
+
+### Dia 08 - Coração batendo <a name="id07"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day7/day7.gif" />
+</div>
