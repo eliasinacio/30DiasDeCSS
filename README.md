@@ -8,15 +8,15 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ***A ideia desse desafio é da [Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), vê por lá também que tá mais organizado***
 
-* [Dia 01 - Ícones em camadas](#id01)
-* [Dia 02 - Loadings animados](#id02)
-* [Dia 03 - Texto que muda de cor](#id03)
-* [Dia 04 - Botão com efeito](#id04)
-* [Dia 05 - Efeito de pulsar](#id05)
-* [Dia 06 - Efeito de Luz](#id06)
-* [Dia 07 - Loading animado](#id07)  
-* [Dia 08 - Coração batendo](#id08)
-* [Dia 09 - Pendulo de Newton](#id09)
+* [Dia 1 - Ícones em camadas](#id01)
+* [Dia 2 - Loadings animados](#id02)
+* [Dia 3 - Texto que muda de cor](#id03)
+* [Dia 4 - Botão com efeito](#id04)
+* [Dia 5 - Efeito de pulsar](#id05)
+* [Dia 6 - Efeito de Luz](#id06)
+* [Dia 7 - Loading animado](#id07)  
+* [Dia 8 - Coração batendo](#id08)
+* [Dia 9 - Pendulo de Newton](#id09)
 * [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
@@ -75,7 +75,12 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
   <img width="500px" src="archives/day7/day7.gif" />
 </div>
 
-### Dia 08 - Coração batendo <a name="id08"></a>
+### Dia 8 - Coração batendo <a name="id08"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day8/day8.gif" />
+</div>
+
+### Dia 9 - Pêndulos <a name="id09"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day9/day9.gif" />
 </div>
