@@ -17,7 +17,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 7 - Loading animado](#id07)  
 * [Dia 8 - Coração batendo](#id08)
 * [Dia 9 - Pendulo de Newton](#id09)
-* [Dia 10 - Animação texto alternando](#id10)
+* [Dia 10 - Letras flutuantes](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
@@ -83,4 +83,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 9 - Pêndulos <a name="id09"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day9/day9.gif" />
+</div>
+
+### Dia 10 - Letras flutuantes <a name="id010"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day10/day10.gif" />
 </div>
