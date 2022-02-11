@@ -19,6 +19,7 @@
 .letter div {
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
+  color:  var(--color-white);
   animation: 2s grow linear infinite;
 }
 
