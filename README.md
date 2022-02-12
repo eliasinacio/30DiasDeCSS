@@ -85,12 +85,12 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
   <img width="500px" src="archives/day9/day9.gif" />
 </div>
 
-### Dia 10 - Letras flutuantes <a name="id010"></a>
+### Dia 10 - Letras flutuantes <a name="id10"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day10/day10.gif" />
 </div>
 
-### Dia 11 - Botões com efeito <a name="id011"></a>
+### Dia 11 - Botões com efeito <a name="id11"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day11/day11.gif" />
 </div>
