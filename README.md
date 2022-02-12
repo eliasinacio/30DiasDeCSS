@@ -18,7 +18,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 8 - Coração batendo](#id08)
 * [Dia 9 - Pendulo de Newton](#id09)
 * [Dia 10 - Letras flutuantes](#id10)
-* [Dia 11 - Botão com efeito hover](#id11)
+* [Dia 11 - Botoẽs com efeito](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
@@ -88,4 +88,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 10 - Letras flutuantes <a name="id010"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day10/day10.gif" />
+</div>
+
+### Dia 11 - Botões com efeito <a name="id011"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day11/day11.gif" />
 </div>

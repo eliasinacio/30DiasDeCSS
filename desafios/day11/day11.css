@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+
+#day11 {
+  background-color: var(--color-main);
+}
+
+.day11_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 140px;
+
+  gap: 20px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+
+  border: 2px solid var(--color-white);
+  border-radius: 5px;
+
+  position: relative;
+  
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.button1::before {
+  width: 0;
+  height: 40px;
+
+  content: '';
+
+  background-color: #ffdcbd;
+
+  top: -2px;
+  left: -2px;
+  position: absolute;
+
+  z-index: -1;
+
+  transition: 0.5s;
+}
+
+.button1:hover::before {
+  width: 120px;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  color: var(--color-main);
+}
+
+
+.button2::before {
+  width: 120px;
+  height: 0;
+
+  content: '';
+
+  background-color: #ffdcbd;
+
+  top: -2px;
+  left: -2px;
+  position: absolute;
+
+  z-index: -1;
+
+  transition: 0.5s;
+}
+
+.button2:hover::before {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.button2:hover {
+  color: var(--color-main);
+}
+
+.button3::before {
+  width: 0;
+  height: 40px;
+
+  content: '';
+
+  background-color: #ffdcbd;
+  border-radius: 50% 5px 5px 50%;
+
+  top: -2px;
+  left: 118px;
+  position: absolute;
+
+  z-index: -1;
+
+  transition: 0.5s;
+}
+
+.button3:hover::before {
+  left: -2px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.button3:hover {
+  color: var(--color-main);
+}
+
+@media (max-width: 800px) {
+  .day11_container {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
