@@ -94,3 +94,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 <div align="center" display="inline">
   <img width="500px" src="archives/day11/day11.gif" />
 </div>
+
+### Dia 12 - Óculos com Css <a name="id12"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day12/day12.gif" />
+</div>
