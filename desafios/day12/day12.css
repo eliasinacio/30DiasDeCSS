@@ -1,0 +1,54 @@
+.day12_container {
+  display: flex;
+  justify-content: center;
+  
+  padding: 40px;
+}
+
+.glasses {
+  display: flex;
+}
+
+.glass {
+  width: 80px;
+  height: 80px;
+  
+  background-color: #000;
+  
+  border-radius: 50%;
+  
+  border: #D4AC2B 2px solid;
+  
+  position: relative;
+}
+
+.glassCenter {
+  width: 100px; 
+  height: 100px;  
+  border: solid 3px #000;
+  border-color: #D4AC2B transparent transparent transparent;
+  border-radius: 50%/50px 50px 0 0;
+  
+  margin: 30px -40px;
+  
+  z-index: -1;
+}
+
+.glass::after {
+  content: '';
+  background-color: #fff;
+  height: 0;
+  width: 0;
+  
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 40px solid white;
+  border-bottom: 0;
+  
+  opacity: 0.1;
+  transform: rotate(145deg);
+  
+  position: absolute;
+  left: 11px;
+  top: 36px;
+}
