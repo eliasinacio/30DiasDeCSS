@@ -1,0 +1,96 @@
+.day13_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 40px;
+  
+  height: 200px;
+
+  background-color: #343434;
+}
+
+.suncontainer {
+  position: relative;
+  z-index: 1;
+}
+
+.letters, .shadow, .letters_light {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold; 
+  
+  color: #222;
+  width: 200px;
+  
+  user-select: none;
+}
+
+.shadow {
+  position: absolute;
+  color: #222;
+  top: 28px;
+  left: 16px;
+  transform: rotateZ(180deg) rotateY(180deg) skew(-55deg, 0);
+  text-shadow: 0 0 4px #222;
+  
+  animation: 2s shadow linear infinite;
+}
+
+.letters_light {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: -3px;
+  z-index: -1;
+  
+  animation: 2s sunlight linear infinite;
+}
+
+.sun {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  background-color: #ffb;
+  box-shadow: 0 0 10px #ffb;
+  
+  position: absolute;
+  
+  top: -60px;
+  left: -120px;
+  
+  animation: 2s sun linear infinite;
+}
+
+@keyframes sun {
+  0% {
+    top: -50px;
+    left: -100px;
+  }
+  50% {
+    top: -70px;
+    left: 70px;
+  }
+  100% {
+    top: -50px;
+    left: 220px;
+  }
+}
+
+@keyframes shadow {
+  0% {
+    left: 16px;
+    transform: rotateZ(180deg) rotateY(180deg) skew(-55deg, 0);
+  }
+  100% {
+    left: -16px;
+    transform: rotateZ(180deg) rotateY(180deg) skew(55deg, 0);
+  }
+}
+
+@keyframes sunlight {
+  from { left: -3px; }
+  to { left: 3px; }
+}

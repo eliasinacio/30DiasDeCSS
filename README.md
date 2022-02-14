@@ -19,7 +19,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 9 - Pendulo de Newton](#id09)
 * [Dia 10 - Letras flutuantes](#id10)
 * [Dia 11 - Botoẽs com efeito](#id11)
-* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
+* [Dia 12 - Óculos com Css](#id12)
 * [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
