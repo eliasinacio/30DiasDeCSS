@@ -20,7 +20,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 10 - Letras flutuantes](#id10)
 * [Dia 11 - Botoẽs com efeito](#id11)
 * [Dia 12 - Óculos com Css](#id12)
-* [Dia 13 - Loading com efeito](#id13)
+* [Dia 13 - Animação com luz e sombra](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
 * [Dia 16 - Botão com efeito](#id16)
@@ -98,4 +98,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 12 - Óculos com Css <a name="id12"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day12/day12.png" />
+</div>
+
+### Dia 13 - Animação com luz e sombra <a name="id13"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day13/day13.gif" />
 </div>
