@@ -22,8 +22,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 12 - Óculos](#id12)
 * [Dia 13 - Animação](#id13)
 * [Dia 14 - Nuvens](#id14)
-* [Dia 15 - Texto flutuante](#id15)
-* [Dia 16 - Botão com efeito](#id16)
+* [Dia 15 - Sistema solar simple](#id15)
+<!-- * [Dia 16 - Botão com efeito](#id16)
 * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - Texto esfumaçado](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
@@ -37,8 +37,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 27 - Efeito pulsar](#id27)
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
-* [Dia 30 - Fogos de artificio](#id30)
-
+* [Dia 30 - Fogos de artificio](#id30) -->
 
 ### Dia 1 - Ícone em camadas <a name="id01"></a>
 <div align="center" display="inline">
@@ -108,4 +107,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 14 - Nuvens <a name="id14"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day14/day14.png" />
+</div>
+
+### Dia 15 - Sistema solar simples <a name="id15"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day15/day15.png" />
 </div>
