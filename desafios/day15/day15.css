@@ -1,0 +1,121 @@
+.day15_container {
+  background-color: #000;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.day15_container * {
+  box-sizing: content-box;
+}
+
+.day15_container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day15_sun {
+  width: 100px;
+  height: 100px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  border-radius: 50%;
+  
+  background: radial-gradient(#c33, #d81, #dd2);
+  box-shadow: 0 0 30px #dd2;
+}
+
+.orbit1 {
+  width: 200px;
+  height: 200px;
+  
+  border: 1px solid #555;
+  border-radius: 50%;
+  
+  position: relative;
+}
+
+.orbit1::before {
+  content: '';
+  
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100%, #ac8461 1%, #5f3311 100%);
+  
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  
+  transform-origin: 79px 79px;
+  animation: 2s orbit linear infinite;
+}
+
+.orbit2 {
+  width: 300px;
+  height: 300px;
+  
+  border: 1px solid #555;
+  border-radius: 50%;
+  
+  position: relative;
+}
+
+.orbit2::before {
+  content: '';
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100%, #c6bbb9 1%, #1c1026 100%);
+  
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  
+  transform-origin: 120px 120px;
+  animation: 6s orbit linear infinite;
+}
+
+.orbit3 {
+  width: 400px;
+  height: 400px;
+  
+  border: 1px solid #555;
+  border-radius: 50%;
+  
+  position: relative;
+}
+
+.orbit3::before {
+  content: '';
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100%, #4a446c 1%, #181c27 100%);
+  
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  
+  transform-origin: 156px 156px;
+  animation: 10s orbit linear infinite;
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
