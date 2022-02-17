@@ -23,7 +23,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 13 - Animação](#id13)
 * [Dia 14 - Nuvens](#id14)
 * [Dia 15 - Sistema solar simple](#id15)
-* [Dia 16 - Shop card](#id16)
+* [Dia 16 - Relógio](#id16)
 <!-- * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - Texto esfumaçado](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
@@ -114,7 +114,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
   <img width="500px" src="archives/day15/day15.png" />
 </div>
 
-### Dia 16 - Shop card <a name="id16"></a>
+### Dia 16 - Relógio <a name="id16"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day16/day16.png" />
 </div>
