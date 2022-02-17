@@ -1,0 +1,147 @@
+#day16 * {
+  box-sizing: content-box;
+  color: var(--color-white);
+}
+
+.day16_container {
+  width:100%;
+  height:300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  position: relative;
+  
+  width: 200px;
+  height: 200px;
+  
+  background: #111;
+  border-radius: 50%;
+  border: 15px solid rgb(41, 41, 41);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2),
+    0 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.n93 {
+  width: 90%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: absolute;
+  top: 92px;
+  line-height: 16px;
+  font-size: 16px;
+  font-family: sans;
+  font-weight: 700;
+}
+
+.n126 {
+  height: 90%;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 3px;
+  left: 90px;
+  line-height: 16px;
+  font-size: 16px;
+  font-family: sans;
+  text-align: center;
+  font-weight: 700;
+}
+
+.dash {
+  width: 90%;
+  height: 1px;
+  
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash::before {
+  content: '';
+  background-color: white;
+  width: 10px;
+  height: 2px;
+}
+
+.dash::after {
+  content: '';
+  background-color: white;
+  width: 10px;
+  height: 2px;
+}
+
+.dash1 {
+  top: 100px;
+  left: 10px;
+  transform: rotate(60deg);
+}
+
+.dash2 {
+  top: 100px;
+  left: 10px;
+  transform: rotate(30deg);
+}
+
+.dash3 {
+  top: 100px;
+  left: 10px;
+  transform: rotate(-60deg);
+}
+
+.dash4 {
+  top: 100px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+
+.pointer {
+  position: absolute;
+  top: 50px;
+  left: 98px;
+  width: 4px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  animation: 60s animation linear infinite;
+}
+
+.pointer1 {
+  top: 20px;
+  width: 2px;
+  height: 80px;
+  transform-origin: 1px 79px;
+  background-color: #B33030;
+  animation-duration: 30s;
+}
+
+.pointer2 {
+  top: 30px;
+  width: 4px;
+  height: 70px;
+  transform-origin: 2px 68px;
+  background-color: #395B64;
+  animation-duration: 60s;
+}
+
+.pointer3 {
+  background-color: #D1D1D1;
+  transform-origin: 2px 48px;
+  animation-duration: 90s;
+}
+
+@keyframes animation {
+  from {
+    transform: rotate(0);
+  } to {
+    transform: rotate(360deg);
+  }
+}
