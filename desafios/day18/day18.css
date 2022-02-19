@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.day18_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+ul li a {
+  position: relative;
+  font-size: 3em;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+
+ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: var(--color);
+  width: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 5px solid var(--color);
+  -webkit-text-stroke: 1px var(--color);
+}
+
+ul li a:hover::before {
+  width: 100%;
+  -webkit-text-stroke: 1px var(--color);
+  filter: drop-shadow(0 0 25px var(--color));
+}
