@@ -126,5 +126,5 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ### Dia 18 - Navigation com efeito <a name="id18"></a>
 <div align="center" display="inline">
-  <img width="500px" src="archives/day18/day18.png" />
+  <img width="500px" src="archives/day18/day18.gif" />
 </div>
