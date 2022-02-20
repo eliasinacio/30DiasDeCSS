@@ -16,9 +16,10 @@
 @import "desafios/day16/day16.css";
 @import "desafios/day17/day17.css";
 @import "desafios/day18/day18.css";
+@import "desafios/day19/day19.css";
 
 :root {
-  --color-main: #313552;
+  --color-main: #161623;
   --color-red: #B8405E;
   --color-green: #2EB086;
   --color-white: #EEE6CE;

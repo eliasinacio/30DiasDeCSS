@@ -394,6 +394,39 @@
       </div>
     </section>
 
+    <hr>
+    <section id="day19">
+      <h3>Dia 19 - Navigation com efeito</h3>
+
+      <div class="day19_container">
+        <div class="cards_container">
+          <div class="day19_card">
+            <div class="content">
+              <h2>01</h2>
+              <h3>Card one</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta vel aspernatur odit autem dolores commodi</p>
+            </div>
+          </div>
+          <div class="day19_card">
+            <div class="content">
+              <h2>02</h2>
+              <h3>Card two</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis aliquid exercitationem tempora</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        import vanillaTilt from "https://cdn.skypack.dev/vanilla-tilt@1.7.2";
+
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 20,
+            speed: 400,
+            reverse: true
+          });
+      </script>
+    </section>
+
   </main>
 </body>
 </html>
