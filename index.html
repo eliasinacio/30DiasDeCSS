@@ -416,17 +416,15 @@
           </div>
         </div>
       </div>
-      <script>
-        import vanillaTilt from "https://cdn.skypack.dev/vanilla-tilt@1.7.2";
-
-        VanillaTilt.init(document.querySelectorAll(".card"), {
-            max: 20,
-            speed: 400,
-            reverse: true
-          });
-      </script>
     </section>
-
   </main>
+
+  <script type="text/javascript" src="desafios/day19/vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".day19_card"), {
+      max: 25,
+      speed: 400
+    });
+  </script>
 </body>
 </html>
