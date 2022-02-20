@@ -26,8 +26,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 16 - Relógio](#id16)
 * [Dia 17 - Hover cards](#id17)
 * [Dia 18 - Navigation com efeito](#id18)
-<!-- * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
-* [Dia 20 - Botão com efeito](#id20)
+* [Dia 19 - Glassmorphism](#id19)
+<!-- * [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Botão com efeito hover](#id23)
@@ -127,4 +127,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 18 - Navigation com efeito <a name="id18"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day18/day18.gif" />
+</div>
+
+### Dia 19 - Glassmorphism <a name="id19"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day19/day19.gif" />
 </div>
