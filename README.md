@@ -27,8 +27,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 17 - Hover cards](#id17)
 * [Dia 18 - Navigation com efeito](#id18)
 * [Dia 19 - Glassmorphism](#id19)
-<!-- * [Dia 20 - Botão com efeito](#id20)
-* [Dia 21 - Esferas quicando](#id21)
+* [Dia 20 - Imagem em texto](#id20)
+<!-- * [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
@@ -38,6 +38,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30) -->
+
+<!-- https://youtu.be/GEDNdp4g--E ultimo dia -->
 
 ### Dia 1 - Ícone em camadas <a name="id01"></a>
 <div align="center" display="inline">
@@ -132,4 +134,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 19 - Glassmorphism <a name="id19"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day19/day19.gif" />
+</div>
+
+### Dia 20 - Imagem em texto <a name="id20"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day20/day20.png" />
 </div>
