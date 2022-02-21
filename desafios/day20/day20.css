@@ -24,6 +24,10 @@
   color: transparent;
 }
 
+.day20_text span {
+  color: transparent;
+}
+
 @media (max-width: 800px) {
   .day20_text {
     width: 100%;
