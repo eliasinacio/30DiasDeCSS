@@ -18,6 +18,7 @@
 @import "desafios/day18/day18.css";
 @import "desafios/day19/day19.css";
 @import "desafios/day20/day20.css";
+@import "desafios/day21/day21.css";
 
 :root {
   --color-main: #161623;
@@ -32,7 +33,7 @@
   padding: 0;
 
   font-family: Ubuntu; 
-  color: #ffdcbd; 
+  color: var(--color-white); 
 
   box-sizing: border-box;
 
