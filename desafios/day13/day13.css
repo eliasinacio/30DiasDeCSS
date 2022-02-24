@@ -27,7 +27,7 @@
   user-select: none;
 }
 
-.shadow {
+.day13_container .shadow {
   position: absolute;
   color: #222;
   top: 28px;
