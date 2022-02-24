@@ -115,8 +115,8 @@
 .indicator::after {
   content: '';
   position: absolute;
-  top: 55%;
-  right: -21px;
+  top: 56%;
+  right: -20px;
   width: 20px;
   height: 20px;
   border-top-left-radius: 20px;
@@ -141,5 +141,5 @@
 }
 
 .navigation ul li:nth-child(5).active ~ .indicator {
-  transform: translateX(calc(70px * 4 + 31px));
+  transform: translateX(calc(70px * 4 + 30px));
 }
