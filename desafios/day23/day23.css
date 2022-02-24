@@ -55,11 +55,12 @@
   content: '';
   position: absolute;
   top: 0;
-  left: -10px;
+  left: -9px;
   width: 10px;
   height: 100%;
   background: linear-gradient(#fff, #fff, #e3e3e3);
   filter: blur(1px);
+  z-index: 1;
 }
 
 .day23_container .icon::after {
@@ -76,12 +77,13 @@
 .day23_container .shadow {
   position: absolute;
   top: 30px;
-  left: -16px;
-  width: 85px;
+  left: -20px;
+  width: 92px;
   height: 300px;
   background: linear-gradient(180deg, rgba(0,0,0,0.1), transparent, transparent);
   transform-origin: top;
-  transform: rotate(315deg);
+  transform: rotate(318deg);
+  z-index: 0;
 }
 
 .day23_container .iconBox {
@@ -103,4 +105,8 @@
   font-size: 1.5em;
   --ionicon-stroke-width: 50px;
   margin: 15px;
+}
+
+.day23_container label input:checked + .icon .iconBox ion-icon {
+  color: #2ff;
 }
