@@ -1,0 +1,106 @@
+.day23_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.white_space {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfd1e1;
+}
+
+.day23_container label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 120px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.day23_container label::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 4px;
+  background: #444;
+  border-radius: 4px;
+}
+
+.day23_container label input {
+  position: absolute;
+  appearance: none;
+  transition: 0.5s;
+}
+
+.day23_container .icon {
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.day23_container label input:checked ~ .icon {
+  left: 60px;
+}
+
+.day23_container .icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(#fff, #fff, #e3e3e3);
+  filter: blur(1px);
+}
+
+.day23_container .icon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: #9d9d9d;
+  filter: blur(1px);
+}
+
+.day23_container .shadow {
+  position: absolute;
+  top: 30px;
+  left: -16px;
+  width: 85px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.1), transparent, transparent);
+  transform-origin: top;
+  transform: rotate(315deg);
+}
+
+.day23_container .iconBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#dbdae1, #a3aaba);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    15px 15px 15px rgba(0,0,0,0.1),
+    20px 20px 20px rgba(0,0,0,0.1),
+    30px 30px 30px rgba(0,0,0,0.1),
+    inset 1px 1px 1px #fff;
+}
+
+.day23_container .iconBox ion-icon {
+  color: #555;
+  font-size: 1.5em;
+  --ionicon-stroke-width: 50px;
+  margin: 15px;
+}
