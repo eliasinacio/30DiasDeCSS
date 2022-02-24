@@ -140,3 +140,18 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 <div align="center" display="inline">
   <img width="500px" src="archives/day20/day20.png" />
 </div>
+
+### Dia 21 - Styled Radio Button <a name="id21"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day21/day21.png" />
+</div>
+
+### Dia 22 - Mobile Navigation <a name="id22"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day22/day22.png" />
+</div>
+
+### Dia 23 - Styled Checkbox <a name="id23"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day23/day23.png" />
+</div>
