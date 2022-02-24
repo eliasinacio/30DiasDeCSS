@@ -451,8 +451,61 @@
         </div>
       </div>
     </section>
+
+
+    <hr>
+    <section id="day22">
+      <h3>Dia 22 - Mobile Menu</h3>
+
+      <div class="day22_container">
+        <div class="navigation">
+          <ul>
+            <li class="list_item active">
+              <a href="#day22">
+                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="text">Home</span>
+              </a>
+            </li>
+            <li class="list_item">
+              <a href="#day22">
+                <span class="icon"><ion-icon name="swap-vertical-outline"></ion-icon></span>
+                <span class="text">Transations</span>
+              </a>
+            </li>
+            <li class="list_item">
+              <a href="#day22">
+                <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
+                <span class="text">Carteira</span>
+              </a>
+            </li>
+            <li class="list_item">
+              <a href="#day22">
+                <span class="icon"><ion-icon name="notifications-outline"></ion-icon></span>
+                <span class="text">Notifications</span>
+              </a>
+            </li>
+            <li class="list_item">
+              <a href="#day22">
+                <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                <span class="text">Profile</span>
+              </a>
+            </li>
+            <div class="indicator"></div>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <script>
+    const list = document.querySelectorAll('.list_item');
+
+    function activeItem () {
+      list.forEach((item) => item.classList.remove('active'));
+      this.classList.add('active');
+    }
+    list.forEach(item => item.addEventListener('click', activeItem))
+  </script>
   <script type="text/javascript" src="desafios/day19/vanilla-tilt.min.js"></script>
   <script type="text/javascript">
     VanillaTilt.init(document.querySelectorAll(".day19_card"), {
@@ -460,5 +513,7 @@
       speed: 400
     });
   </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
