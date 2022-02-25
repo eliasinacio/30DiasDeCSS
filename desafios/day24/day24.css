@@ -50,7 +50,7 @@
 .space{
   width: 200px;
 }
-.tab, .space, .shift, .caps, .backspace, .ctrl, .alt, .linux, .menu, .enter {
+.tab, .shift, .caps, .backspace, .ctrl, .alt, .linux, .menu, .enter {
   background: #151D3B;
 }
 
@@ -74,8 +74,8 @@
 }
 
 .keydown {
-  margin-top: 4px;
-  box-shadow: 0px 0 0 #434343;
+  margin-top: 3px;
+  box-shadow: 2px 1px 0 #291c1c;
   transform: translatex(2px);
 }
 
