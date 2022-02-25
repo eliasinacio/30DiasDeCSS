@@ -513,16 +513,110 @@
         </div>
       </div>
     </section>
+
+    <hr>
+    <section id="day24">
+      <h3>Dia 24 - checkbox com estilo </h3>
+
+      <div class="day24_container">
+        <div class="keyboard">
+          <div class="line">
+            <div class="keycap esc normal">esc</div>
+            <div class="keycap normal">1</div>
+            <div class="keycap normal">2</div>
+            <div class="keycap normal">3</div>
+            <div class="keycap normal">4</div>
+            <div class="keycap normal">5</div>
+            <div class="keycap normal">6</div>
+            <div class="keycap normal">7</div>
+            <div class="keycap normal">8</div>
+            <div class="keycap normal">9</div>
+            <div class="keycap normal">0</div>
+            <div class="keycap normal">-</div>
+            <div class="keycap normal">+</div>
+            <div class="keycap backspace">back</div>
+          </div>
+          <div class="line">
+            <div class="keycap tab">tab</div>
+            <div class="keycap normal">q</div>
+            <div class="keycap normal">w</div>
+            <div class="keycap normal">e</div>
+            <div class="keycap normal">r</div>
+            <div class="keycap normal">t</div>
+            <div class="keycap normal">y</div>
+            <div class="keycap normal">u</div>
+            <div class="keycap normal">i</div>
+            <div class="keycap normal">o</div>
+            <div class="keycap normal">p</div>
+            <div class="keycap normal">´</div>
+            <div class="keycap normal">[</div>
+            <div class="keycap normal">]</div>
+          </div>
+          <div class="line">
+            <div class="keycap caps">caps</div>
+            <div class="keycap normal">a</div>
+            <div class="keycap normal">s</div>
+            <div class="keycap normal">d</div>
+            <div class="keycap normal">f</div>
+            <div class="keycap normal">g</div>
+            <div class="keycap normal">h</div>
+            <div class="keycap normal">j</div>
+            <div class="keycap normal">k</div>
+            <div class="keycap normal">l</div>
+            <div class="keycap normal">~</div>
+            <div class="keycap enter">enter</div>
+          </div>
+          <div class="line">
+            <div class="keycap shift">shift</div>
+            <div class="keycap normal">\</div>
+            <div class="keycap normal">z</div>
+            <div class="keycap normal">x</div>
+            <div class="keycap normal">c</div>
+            <div class="keycap normal">v</div>
+            <div class="keycap normal">b</div>
+            <div class="keycap normal">n</div>
+            <div class="keycap normal">m</div>
+            <div class="keycap normal">,</div>
+            <div class="keycap normal">.</div>
+            <div class="keycap normal">;</div>
+            <div class="keycap shift">shift</div>
+          </div>
+          <div class="line bottom-line">
+            <div class="keycap ctrl">ctrl</div>
+            <div class="keycap linux">
+              <ion-icon name="logo-tux"></ion-icon>
+            </div>
+            <div class="keycap">alt</div>
+            <div class="keycap space">spcae</div>
+            <div class="keycap">alt gr</div>
+            <div class="keycap">fn</div>
+            <div class="keycap menu">
+              <ion-icon name="newspaper-outline"></ion-icon>
+            </div>
+            <div class="keycap ctrl">ctrl</div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
     const list = document.querySelectorAll('.list_item');
+    const keys = document.querySelectorAll('.keycap');
 
     function activeItem () {
       list.forEach((item) => item.classList.remove('active'));
       this.classList.add('active');
     }
+
+    function keyDown () {
+      keys.forEach((item) => item.classList.remove('keydown'));
+      this.classList.add('keydown');
+    }
+
+
     list.forEach(item => item.addEventListener('click', activeItem))
+    keys.forEach(item => item.addEventListener('click', keyDown))
   </script>
   <script type="text/javascript" src="desafios/day19/vanilla-tilt.min.js"></script>
   <script type="text/javascript">

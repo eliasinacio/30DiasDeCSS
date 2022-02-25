@@ -110,3 +110,21 @@
 .day23_container label input:checked + .icon .iconBox ion-icon {
   color: #2ff;
 }
+
+@media (max-width: 920px) {
+  .keyboard {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 720px) {
+  .keyboard {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 520px) {
+  .keyboard {
+    transform: scale(0.4);
+  }
+}

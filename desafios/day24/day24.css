@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.day24_container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.keyboard {
+  border: 1px solid #565656;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.keycap {
+  width: 50px;
+  height: 50px;
+  color: #DADBBD;
+  background-color: #D82148;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.line {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.backspace, .tab{
+  width: 80px;
+}
+.caps, .enter {
+  width: 125px;
+}
+.shift {
+  width: 95px;
+}
+.space{
+  width: 200px;
+}
+.tab, .space, .shift, .caps, .backspace, .ctrl, .alt, .linux, .menu, .enter {
+  background: #151D3B;
+}
+
+.bottom-line .keycap {
+  width: 65px;
+  height: 50px;
+}
+
+.bottom-line .space {
+  width: 335px;
+}
+
+.keycap {
+  box-shadow: 1px 1px 0 #291c1c,
+  1px 2px 0 #291c1c,
+  1px 3px 0 #291c1c,
+  2px 4px 0 #291c1c,
+  2px 5px 0 #291c1c,
+  2px 6px 0 #291c1c;
+  transition: 0.1s;
+}
+
+.keydown {
+  margin-top: 4px;
+  box-shadow: 0px 0 0 #434343;
+  transform: translatex(2px);
+}
+
+.linux, .menu{
+  font-size: 22px;
+}
+
+ion-icon {
+  color: #DADBBD;
+}
