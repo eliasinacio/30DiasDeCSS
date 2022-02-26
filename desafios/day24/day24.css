@@ -39,18 +39,19 @@
 }
 
 .backspace, .tab{
-  width: 80px;
+  width: 100px;
 }
-.caps, .enter {
-  width: 125px;
+.caps {
+  width: 120px;
+}
+.enter {
+  width: 150px;
 }
 .shift {
-  width: 95px;
+  width: 105px;
 }
-.space{
-  width: 200px;
-}
-.tab, .shift, .caps, .backspace, .ctrl, .alt, .linux, .menu, .enter {
+
+.tab, .shift, .caps, .backspace, .ctrl, .alt, .fn, .linux, .menu, .enter {
   background: #151D3B;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .bottom-line .space {
-  width: 335px;
+  width: 350px;
 }
 
 .keycap {
