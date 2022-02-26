@@ -2,6 +2,8 @@
 
 Já vi esse desafio antes mas sempre tive medo de tentar, não conseguir finalizar e me sentir mal depois kkkk Agora decidi tentar pois estou a um tempo sem estudar e isso vai me ajudar psicologicamente a voltar e ainda vou aprender umas coisinhas novas de CSS. 
 
+[GitHub Pages](https://eliasinacio.github.io/30DiasDeCSS/)
+
 ### :: Objetivo ::
 
 De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu continuar tranquilo, consigo finalizar no dia do meu aniversário, então me darei um presente ashuahshauhs.
