@@ -142,9 +142,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 </div>
 
 ### Dia 21 - Styled Radio Button <a name="id21"></a>
-<div align="center" display="flex">
-  <img width="500px" src="archives/day21.png" />
-  <img width="500px" src="archives/day21_a.png" />
+<div align="center" display="inline">
+  <img width="250px" src="archives/day21.png" />
+  <img width="250px" src="archives/day21_a.png" />
 </div>
 
 ### Dia 22 - Mobile Navigation <a name="id22"></a>
