@@ -33,8 +33,8 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 23 - Botão com efeito hover](#id23)
 * [Dia 24 - Keyboard](#id24)
 * [Dia 25 - Neon Effect](#id25)
-<!-- * [Dia 26 - Loading com efeito](#id26)
-* [Dia 27 - Efeito pulsar](#id27)
+* [Dia 26 - Efeito de profundidade](#id26)
+<!-- * [Dia 27 - Efeito pulsar](#id27)
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30) -->
@@ -165,4 +165,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 ### Dia 25 - Neon Effect <a name="id25"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day25.png" />
+</div>
+
+### Dia 26 - Efeito de profundidade <a name="id26"></a>
+<div align="center" display="inline">
+  <img width="500px" src="archives/day26.png" />
 </div>
