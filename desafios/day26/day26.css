@@ -1,0 +1,58 @@
+.day26_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.day26_container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+  width: 400px;
+  height: 300px;
+}
+
+.day26_container label {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 40%;
+  box-shadow: 5px 5px 10px #aaa;
+  transition: 0.5s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.day26_container input {
+  display: none;
+}
+
+.day26_container input:checked + label {
+  box-shadow: inset 5px 5px 10px #aaa;
+}
+
+.day26_container div div {
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  background: #fff;
+  border-radius: 40%;
+  outline: none;
+  border: none;
+  animation: 1s animation alternate infinite;
+}
+
+@keyframes animation {
+  0% {
+    box-shadow: inset 12px 12px 12px #aaa;
+  }
+  50% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 12px 12px 12px #aaa;
+  }
+}
