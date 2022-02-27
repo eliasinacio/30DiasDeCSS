@@ -2,6 +2,8 @@
 
 Já vi esse desafio antes mas sempre tive medo de tentar, não conseguir finalizar e me sentir mal depois kkkk Agora decidi tentar pois estou a um tempo sem estudar e isso vai me ajudar psicologicamente a voltar e ainda vou aprender umas coisinhas novas de CSS. 
 
+[GitHub Pages](https://eliasinacio.github.io/30DiasDeCSS/)
+
 ### :: Objetivo ::
 
 De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu continuar tranquilo, consigo finalizar no dia do meu aniversário, então me darei um presente ashuahshauhs.
@@ -142,9 +144,9 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 </div>
 
 ### Dia 21 - Styled Radio Button <a name="id21"></a>
-<div align="center" display="flex">
-  <img width="500px" src="archives/day21.png" />
-  <img width="500px" src="archives/day21_a.png" />
+<div align="center" display="inline">
+  <img width="250px" src="archives/day21.png" />
+  <img width="250px" src="archives/day21_a.png" />
 </div>
 
 ### Dia 22 - Mobile Navigation <a name="id22"></a>
@@ -166,8 +168,11 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 <div align="center" display="inline">
   <img width="500px" src="archives/day25.png" />
 </div>
+<<<<<<< HEAD
 
 ### Dia 26 - Efeito de profundidade <a name="id26"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day26.png" />
 </div>
+=======
+>>>>>>> c6d3d5fce593f799e06ce8e64e152dea715b281f
