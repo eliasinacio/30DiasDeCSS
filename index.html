@@ -627,6 +627,20 @@
         </div>
       </div>
     </section>
+
+    <hr>
+    <section id="day27">
+      <h3>Dia 27 - Switch checkbox</h3>
+
+      <div class="day27_container">
+        <div class="switch_container">
+          <label for="switch">
+            <input name="switch" id="switch" type="checkbox">
+            <div></div>
+          </label>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
@@ -643,6 +657,9 @@
       this.classList.add('keydown');
     }
 
+    document.querySelector('#switch').addEventListener('click', () => { 
+      document.querySelector('.switch_container').classList.toggle('white');
+    })
 
     list.forEach(item => item.addEventListener('click', activeItem))
     keys.forEach(item => item.addEventListener('click', keyDown))

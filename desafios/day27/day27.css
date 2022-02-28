@@ -1,0 +1,54 @@
+.day27_container * {
+  box-sizing: content-box;
+}
+
+.day27_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.day27_container .switch_container {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  transition-delay: 0.2s;
+}
+
+#day27 .white {
+  background-color: #fff;
+}
+
+.day27_container label {
+  width: 44px;
+  height: 24px;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.day27_container input {
+  display: none;
+}
+
+.day27_container div {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.day27_container input:checked ~ div {
+  position: absolute;
+  margin-left: 24px;
+}
