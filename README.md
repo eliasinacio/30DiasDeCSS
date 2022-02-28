@@ -168,11 +168,14 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 <div align="center" display="inline">
   <img width="500px" src="archives/day25.png" />
 </div>
-<<<<<<< HEAD
 
 ### Dia 26 - Efeito de profundidade <a name="id26"></a>
 <div align="center" display="inline">
   <img width="500px" src="archives/day26.png" />
 </div>
-=======
->>>>>>> c6d3d5fce593f799e06ce8e64e152dea715b281f
+
+### Dia 27 - Switch checkbox <a name="id27"></a>
+<div align="center" display="inline">
+  <img width="250px" src="archives/day27.png" />
+  <img width="250px" src="archives/day27_a.png" />
+</div>

@@ -5,7 +5,7 @@
   min-height: 500px;
 }
 
-.day26_container > div {
+.day26_container .container {
   display: flex;
   justify-content: center;
   align-items: center;
