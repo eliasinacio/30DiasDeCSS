@@ -36,10 +36,10 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 24 - Keyboard](#id24)
 * [Dia 25 - Neon Effect](#id25)
 * [Dia 26 - Efeito de profundidade](#id26)
-<!-- * [Dia 27 - Efeito pulsar](#id27)
-* [Dia 28 - Cor do background mudando](#id28)
-* [Dia 29 - Menu responsivo com Media Queries](#id29)
-* [Dia 30 - Fogos de artificio](#id30) -->
+* [Dia 27 - Switch checkbox](#id27)
+* [Dia 28 - Menu toggle](#id28)
+* [Dia 29 - Hover Title](#id29)
+<!-- * [Dia 30 - Fogos de artificio](#id30) -->
 
 <!-- https://youtu.be/GEDNdp4g--E ultimo dia -->
 
@@ -180,9 +180,13 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
   <img width="250px" src="archives/day27_a.png" />
 </div>
 
-
 ### Dia 28 - Menu toggle <a name="id28"></a>
 <div align="center" display="inline">
   <img width="250px" src="archives/day28.png" />
   <img width="250px" src="archives/day28_a.png" />
+</div>
+
+### Dia 29 - Hover Title <a name="id29"></a>
+<div align="center" display="inline">
+  <img width="250px" src="archives/day29.png" />
 </div>
