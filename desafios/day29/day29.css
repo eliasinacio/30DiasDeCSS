@@ -32,7 +32,7 @@
   transition: 0.8s;
 }
 
-.day29_container .lettering:hover .letter {
+.day29_text_container:hover .lettering .letter {
   text-shadow: 0 0 0 #fff;
 }
 
