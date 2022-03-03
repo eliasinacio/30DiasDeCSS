@@ -1,0 +1,57 @@
+.day29_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+ 
+.day29_container .lettering {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: #222;
+  padding: 20px;
+}
+
+.day29_container .lettering span {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.day29_container .lettering .letter {
+  color: transparent;
+  text-shadow: 0 0 40px #ffffff00;
+  transition: 0.8s;
+}
+
+.day29_container .lettering:hover .letter {
+  text-shadow: 0 0 0 #fff;
+}
+
+.day29_container .line {
+  width: 0;
+  height: 5px;
+  background: #c23;
+  transition: 1s;
+}
+
+.day29_container .day29_text_container {
+  position: relative;
+}
+
+.day29_container .line2 {
+  position: absolute;
+  right: 0;
+}
+
+.day29_container .day29_text_container:hover .line {
+  width: 100%;
+}
