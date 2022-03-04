@@ -39,7 +39,7 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 * [Dia 27 - Switch checkbox](#id27)
 * [Dia 28 - Menu toggle](#id28)
 * [Dia 29 - Hover Title](#id29)
-* [Dia 30 - Fogos de artificio](#id30) -->
+* [Dia 30 - Boxes animadas](#id30) -->
 
 ### Dia 1 - Ícone em camadas <a name="id01"></a>
 <div align="center" display="inline">
@@ -186,5 +186,11 @@ De 2 de Fevereiro a 3 de março, um mini-projeto de CSS/HTML por dia. Se eu cont
 
 ### Dia 29 - Hover Title <a name="id29"></a>
 <div align="center" display="inline">
-  <img width="250px" src="archives/day29.png" />
+  <img width="500px" src="archives/day29.png" />
+</div>
+
+### Dia 30 - Boxes animadas <a name="id30"></a>
+<div align="center" display="inline">
+  <img width="250px" src="archives/day30.png" />
+  <img width="250px" src="archives/day30_a.png" />
 </div>
